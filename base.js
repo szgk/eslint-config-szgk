@@ -3,6 +3,7 @@ module.exports = {
     ecmaVersion: 10, // es2019
   },
   rules: {
+    semi: ['error', 'never'],
     'linebreak-style': ['error', 'unix'],
     'no-console': ['error', {allow: ['info', 'warn', 'error']}],
     'no-undefined': 'error',
