@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-szgk",
+  "version": "0.0.0",
+  "description": "personal eslint rule extend",
+  "scripts": {
+    "test": "mocha",
+    "ci": "circleci build",
+    "check": "npm run check:base && npm run check:browser && npm run check:node && npm run check:react",
+    "check:base": "eslint -c ./base.js .",
+    "check:browser": "eslint -c ./browser.js .",
+    "check:node": "eslint -c ./node.js .",
+    "check:react": "eslint -c ./react.js ."
+  },
+  "author": "szgk <dev@szgk.xyz> (szgk.xyz)",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-react": "^7.14.2"
+  }
+}
