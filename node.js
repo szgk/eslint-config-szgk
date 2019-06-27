@@ -1,4 +1,3 @@
-// WIP
 module.exports = {
   extends: [
     './base',
