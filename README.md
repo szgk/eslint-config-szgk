@@ -12,8 +12,7 @@ eslint extends.
 ├── node_modules
 ├── package-lock.json
 ├── package.json
-├── react.js // for react
-└── test
+└── react.js // for react
 ```
 
 ## installation
@@ -22,6 +21,7 @@ npm i -D https://github.com/szgk/eslint-config-szgk
 ```
 
 ## usage
+- .eslintrc.js
 ```js
 // browser
 module.exports = {
