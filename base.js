@@ -1,6 +1,7 @@
 module.exports = {
   parserOptions: {
     ecmaVersion: 10, // es2019
+    sourceType: 'module',
   },
   rules: {
     'linebreak-style': ['error', 'unix'],
@@ -18,4 +19,4 @@ module.exports = {
     'no-undef-init': 'error',
     'valid-typeof': ['error', {requireStringLiterals: true}],
   },
-};
+}

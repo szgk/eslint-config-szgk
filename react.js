@@ -9,6 +9,7 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
     },
+    sourceType: 'module',
   },
   rules: {
     'jsx-quotes': ['error', 'prefer-double'],
@@ -16,4 +17,4 @@ module.exports = {
   env: {
     browser: true,
   },
-};
+}
