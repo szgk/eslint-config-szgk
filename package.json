@@ -2,14 +2,15 @@
   "name": "eslint-config-szgk",
   "version": "0.0.0",
   "description": "personal eslint rule extend",
+  "main": "./configs",
   "scripts": {
-    "test:mocha": "mocha './{,!(node_modules)/**}mocha+chai/*.spec.js'",
+    "test": "mocha './{,!(node_modules)/**}mocha+chai/*.spec.js'",
     "ci": "circleci build",
     "check": "npm run check:base && npm run check:browser && npm run check:node && npm run check:react",
-    "check:base": "eslint -c ./base.js .",
-    "check:browser": "eslint -c ./browser.js .",
-    "check:node": "eslint -c ./node.js .",
-    "check:react": "eslint -c ./react.js ."
+    "check:base": "eslint -c ./configs/base.js .",
+    "check:browser": "eslint -c ./configs/browser.js .",
+    "check:node": "eslint -c ./configs/node.js .",
+    "check:react": "eslint -c ./configs/react.js ."
   },
   "author": "szgk <dev@szgk.xyz> (szgk.xyz)",
   "license": "ISC",
@@ -20,6 +21,9 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^6.1.4"
+    "mocha": "^6.1.4",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   }
 }

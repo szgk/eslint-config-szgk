@@ -3,18 +3,6 @@
 # eslint-config-szgk
 eslint extends.
 
-```
-.
-├── README.md
-├── base.js // base config
-├── browser.js // for browser
-├── node.js // for node
-├── node_modules
-├── package-lock.json
-├── package.json
-└── react.js // for react
-```
-
 ## installation
 ```
 npm i -D https://github.com/szgk/eslint-config-szgk

@@ -11,10 +11,17 @@ function returnEslintCommand(config, file) {
 
 function lintWithBaseConfig(file) {
   execSync(
-    returnEslintCommand('./base.js', file)
+    returnEslintCommand('./configs/base.js', file)
+  )
+}
+
+function lintWithReactConfig(file) {
+  execSync(
+    returnEslintCommand('./configs/react.js', file)
   )
 }
 
 module.exports = {
-  lintWithBaseConfig
+  lintWithBaseConfig,
+  lintWithReactConfig,
 }
