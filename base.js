@@ -4,6 +4,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    semi: ['error', 'never'],
     'linebreak-style': ['error', 'unix'],
     'no-console': ['error', {allow: ['info', 'warn', 'error']}],
     'no-undefined': 'error',
