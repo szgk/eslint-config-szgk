@@ -13,17 +13,17 @@ npm i -D https://github.com/szgk/eslint-config-szgk
 ```js
 // browser
 module.exports = {
-  extends: ['szgk/browser']
+  extends: ['szgk/configs/browser']
 }
 
 // node
 module.exports = {
-  extends: ['szgk/node']
+  extends: ['szgk/configs/node']
 }
 
 // react
 module.exports = {
-  extends: ['szgk/react']
+  extends: ['szgk/configs/react']
 }
 ```
 
