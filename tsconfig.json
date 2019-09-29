@@ -1,0 +1,20 @@
+{
+  "include": ["./test/mock/**/*.ts"],
+  "exclude": [
+    "node_modules",
+    "node_modules",
+    "**/*.js"
+  ],
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "jsx": "preserve",
+    "lib": [ "dom", "dom.iterable", "esnext" ],
+    "outDir": "./public/",
+    "target": "ESNEXT",
+    "module": "ESNext",
+    "strict": true,
+    "strictNullChecks": true,
+    "experimentalDecorators": true
+  }
+}

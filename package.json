@@ -15,9 +15,13 @@
   "author": "szgk <dev@szgk.xyz> (szgk.xyz)",
   "license": "ISC",
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.3.1",
+    "@typescript-eslint/parser": "^2.3.1",
     "eslint": "^6.0.1",
     "eslint-config-prettier": "^6.0.0",
-    "eslint-plugin-react": "^7.14.2"
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-react": "^7.14.2",
+    "typescript": "^3.6.3"
   },
   "devDependencies": {
     "chai": "^4.2.0",

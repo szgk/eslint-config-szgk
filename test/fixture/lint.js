@@ -21,7 +21,14 @@ function lintWithReactConfig(file) {
   )
 }
 
+function lintWithTypescriptConfig(file) {
+  execSync(
+    returnEslintCommand('./configs/typescript.js', file)
+  )
+}
+
 module.exports = {
   lintWithBaseConfig,
   lintWithReactConfig,
+  lintWithTypescriptConfig,
 }
