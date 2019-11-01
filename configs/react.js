@@ -15,7 +15,7 @@ module.exports = {
   },
   rules: {
     'jsx-quotes': ['error', 'prefer-double'],
-    'react/boolean-prop-naming': ['error', {rule: '^is[A-Z]([A-Za-z0-9]?)+'}],
+    'react/boolean-prop-naming': [0],
     'react/destructuring-assignment': ['error', 'always'],
     'react/no-access-state-in-setstate': ['error', 'always'],
     // 'react/no-array-index-key': ['error'],
