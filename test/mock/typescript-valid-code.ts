@@ -1,13 +1,13 @@
 export default class RgbAnalyzer {
-  public static hoge: string[]
-  public hogege: string[]
+  public hoge: string[] = ['']
+  public hogege: string[] = ['']
   protected static moga: number
-  protected mogaga: string
+  protected mogaga: string = ''
   private static fuga: number
-  private fugaga: string
+  private fugaga: string = ''
 
   constructor (params: {hoge: string[]}) {
-    this.hoge = params.hoge
+    this.hoge = params.hoge;
   }
 
   public set setRgbs(hoge: string[]) {

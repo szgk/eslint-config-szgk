@@ -16,7 +16,7 @@ module.exports = {
   rules: {
     'jsx-quotes': ['error', 'prefer-double'],
     'react/boolean-prop-naming': [0],
-    'react/destructuring-assignment': ['error', 'always'],
+    'react/destructuring-assignment': [0],
     'react/no-access-state-in-setstate': ['error', 'always'],
     // 'react/no-array-index-key': ['error'],
     'react/no-children-prop': ['error'],
