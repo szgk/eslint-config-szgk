@@ -4,7 +4,7 @@
   "description": "personal eslint rule extend",
   "main": "./configs",
   "scripts": {
-    "test": "mocha './{,!(node_modules)/**}mocha+chai/*.spec.js'",
+    "test": "mocha './{,!(node_modules)/**}mocha+chai/*.spec.js' --no-timeout",
     "ci": "circleci build",
     "check": "npm run check:base && npm run check:browser && npm run check:node && npm run check:react && npm run check:ts",
     "check:base": "eslint -c ./configs/base.js .",
