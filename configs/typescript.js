@@ -42,23 +42,23 @@ module.exports = {
       // Fields
       'public-static-field',
       'public-instance-field',
-      'protected-static-field',
-      'protected-instance-field',
       'private-static-field',
       'private-instance-field',
+      'protected-static-field',
+      'protected-instance-field',
     
       // Constructors
       'public-constructor',
-      'protected-constructor',
       'private-constructor',
+      'protected-constructor',
     
       // Methods
       'public-static-method',
       'public-instance-method',
-      'protected-static-method',
-      'protected-instance-method',
       'private-static-method',
       'private-instance-method',
+      'protected-static-method',
+      'protected-instance-method',
     ]}],
     '@typescript-eslint/no-explicit-any': [0],
     '@typescript-eslint/no-empty-interface': ['error'],

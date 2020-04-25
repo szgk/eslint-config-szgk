@@ -6,11 +6,12 @@
   "scripts": {
     "test": "mocha './{,!(node_modules)/**}mocha+chai/*.spec.js'",
     "ci": "circleci build",
-    "check": "npm run check:base && npm run check:browser && npm run check:node && npm run check:react",
+    "check": "npm run check:base && npm run check:browser && npm run check:node && npm run check:react && npm run check:ts",
     "check:base": "eslint -c ./configs/base.js .",
     "check:browser": "eslint -c ./configs/browser.js .",
     "check:node": "eslint -c ./configs/node.js .",
-    "check:react": "eslint -c ./configs/react.js ."
+    "check:react": "eslint -c ./configs/react.js .",
+    "check:ts": "eslint -c ./configs/react.js ."
   },
   "author": "szgk <dev@szgk.xyz> (szgk.xyz)",
   "license": "ISC",

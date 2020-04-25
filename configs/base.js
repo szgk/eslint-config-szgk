@@ -6,8 +6,7 @@ module.exports = {
   rules: {
     semi: ['error', 'never'],
     'linebreak-style': ['error', 'unix'],
-    'no-console': ['error', {allow: ['info', 'warn', 'error']}],
-    'no-undefined': 'error',
+    'no-console': ['warn', {allow: ['info', 'warn', 'error']}],
     'no-param-reassign': ['error', {props: true}],
     'spaced-comment': ['error', 'always'],
     'object-curly-spacing': ['error', 'never'],
