@@ -8,6 +8,10 @@ module.exports = {
     '@typescript-eslint',
     'eslint-plugin-import',
   ],
+  parserOptions: {
+    project: './tsconfig.json',
+    sourceType: 'module',
+  },
   env: {browser: true, node: true, es6: true},
   rules: {
     'no-param-reassign': ['error'],

@@ -7,6 +7,9 @@ module.exports = {
       version: 'detect',
     },
   },
+  extends: [
+    'plugin:react/recommended',
+  ],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -15,6 +18,7 @@ module.exports = {
   },
   rules: {
     'jsx-quotes': ['error', 'prefer-double'],
+    'react/jsx-uses-react': [1],
     'react/boolean-prop-naming': [0],
     'react/destructuring-assignment': [0],
     'react/no-access-state-in-setstate': ['error', 'always'],

@@ -19,6 +19,10 @@ class Hoge extends React.Component {
   }
 }
 
+Hoge.propTypes = {
+  children: propTypes.object,
+}
+
 export default class Test extends React.Component {
   constructor(props){
     super(props)
@@ -38,7 +42,7 @@ export default class Test extends React.Component {
   // UNSAFE_componentWillUpdate() {}
 
   render() {
-    const {hoge, isFlag} = this.props
+    const {isFlag} = this.props
     if(isFlag){}
     // this.state = 'hoge'
     function testArray() {
